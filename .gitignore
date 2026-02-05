@@ -1,0 +1,5 @@
+# すべての .class ファイルを無視
+*.class
+
+# build フォルダを無視
+build/
