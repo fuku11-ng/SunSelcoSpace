@@ -21,12 +21,10 @@ import jp.co.sunselcospace.exception.DataAccessException;
 import jp.co.sunselcospace.service.RoomService;
 
 /**
- * @author 山下 諒
  */
 public class Convertor {
 	/**
 	 * SQLのDateをLocalDateに変換し返す。
-	 * @author 山下 諒
 	 *
 	 * @param sqlDate
 	 * @return LocalDate
@@ -41,7 +39,6 @@ public class Convertor {
 
 	/**
 	 * StringのdateをLocalDateに変換し返す。
-	 * @author 山下 諒
 	 *
 	 * @param date
 	 * @return LocalDate
@@ -52,7 +49,6 @@ public class Convertor {
 
 	/**
 	 * SQLのTimestampをLocalDateTimeに変換し返す。
-	 * @author 山下 諒
 	 *
 	 * @param timestamp
 	 * @return LocalDateTime

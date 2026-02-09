@@ -12,12 +12,12 @@ public class AccountDto {
 	public String getName() {
 		return name;
 	}
-	//山崎追記	
+	//追記	
 
     public void setName(String name) {
 	this.name = name;
 	}
-	//山崎追記
+	//追記
 	
 	public String getId() {
 		return id;
@@ -48,7 +48,7 @@ public class AccountDto {
 		//return "AccountDto [id=" + id + ", password=" + password + ", passwordHash=" + passwordHash + "]";
 		
 		return "AccountDto [name=" + name + ", id=" + id + ", password=" + password + ", passwordHash=" + passwordHash + "]";
-		//山崎追記
+		//追記
 	}
 
 }

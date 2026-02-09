@@ -9,14 +9,12 @@ import javax.naming.NamingException;
 import javax.sql.DataSource;
 
 /**
- * @author 山下 諒
  */
 public class ConnectionManager {
 	private static final String JNDI_NAME = "java:comp/env/jdbc/sun_selco_space";
 
 	/**
 	 * データベースとの接続を行う際のConnectionを返す。
-	 * @author 山下 諒
 	 *
 	 * @return Connection
 	 *

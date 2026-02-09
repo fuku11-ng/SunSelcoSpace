@@ -11,7 +11,6 @@ import jp.co.sunselcospace.entity.RoomEntity;
 import jp.co.sunselcospace.exception.DataAccessException;
 
 /**
- * @author 山下 諒
  */
 public class RoomService {
 	//roomDaoをインスタンス化
@@ -19,7 +18,6 @@ public class RoomService {
 
 	/**
 	 * 施設管理番号をもとに施設テーブルから検索するようDaoのメソッドを呼び出す。
-	 * @author 山下 諒
 	 *
 	 * @param roomId
 	 * @return RoomEntity
@@ -45,7 +43,6 @@ public class RoomService {
 	}
 
 	/**
-	 * @author 北川　優子
 	 */
 
 	//RoomServiceはroomDaoに施設一覧取得の実行を依頼する。

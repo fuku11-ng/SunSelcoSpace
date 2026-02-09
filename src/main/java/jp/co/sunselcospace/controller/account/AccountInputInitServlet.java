@@ -16,7 +16,6 @@ import jp.co.sunselcospace.constant.Constant;
 * アカウント登録機能_入力サーブレット
 * 画面設計書/詳細設計書に基づき、入力画面(AccountInput.jsp)へ遷移する。
 * - 確認工程から渡されたエラーメッセージ(ERROR_MESSAGE_LIST)をそのままJSPに渡す。
-* * * @author 山崎
 */
 @WebServlet("/public/AccountInputInitServlet")
 public class AccountInputInitServlet extends HttpServlet {

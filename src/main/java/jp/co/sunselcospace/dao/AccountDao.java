@@ -34,7 +34,6 @@ public class AccountDao {
 	}
 
 	/**
-	* @author 山崎
 	* IDの重複存在チェック
 	* @param id 検査対象ID
 	* @return true: 既に存在 / false: 未使用
@@ -51,7 +50,6 @@ public class AccountDao {
 	}
 
 	/**
-	* @author 山崎
 	* アカウントレコード挿入
 	* テーブル: account
 	* 登録項目: id(平文), name(平文), password(ハッシュ化済み)

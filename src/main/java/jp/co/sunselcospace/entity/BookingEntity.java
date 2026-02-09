@@ -5,7 +5,6 @@ import java.time.LocalDateTime;
 
 /**
  * 予約テーブル用のEntity
- * @author 山下 諒
  */
 public class BookingEntity {
 	private Integer id;
@@ -18,7 +17,6 @@ public class BookingEntity {
 	private LocalDateTime recordUpdateTimestamp;
 
 	/**
-	 * @author 山下 諒
 	 * @param id
 	 * @param roomId
 	 * @param accountId
@@ -49,21 +47,18 @@ public class BookingEntity {
 	}
 
 	/**
-	 * @author 山下 諒
 	 */
 	public Integer getId() {
 		return id;
 	}
 
 	/**
-	 * @author 山下 諒
 	 */
 	public Integer getRoomId() {
 		return roomId;
 	}
 
 	/**
-	 * @author 山下 諒
 	 */
 	public String getAccountId() {
 		return accountId;
@@ -77,35 +72,30 @@ public class BookingEntity {
 	}
 
 	/**
-	 * @author 山下 諒
 	 */
 	public String getPurpose() {
 		return purpose;
 	}
 
 	/**
-	 * @author 山下 諒
 	 */
 	public String getDeleted() {
 		return deleted;
 	}
 
 	/**
-	 * @author 山下 諒
 	 */
 	public LocalDateTime getRecordCreationTimestamp() {
 		return recordCreationTimestamp;
 	}
 
 	/**
-	 * @author 山下 諒
 	 */
 	public LocalDateTime getRecordUpdateTimestamp() {
 		return recordUpdateTimestamp;
 	}
 
 	/**
-	 * @author 山下 諒
 	 */
 	@Override
 	public String toString() {

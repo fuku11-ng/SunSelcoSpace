@@ -1,7 +1,6 @@
 package jp.co.sunselcospace.exception;
 
 /**
- * @author 山下 諒
  */
 public class DataAccessException extends Exception {
 	public DataAccessException() {

@@ -27,7 +27,6 @@ import jp.co.sunselcospace.service.AccountService;
 * - ID重複を再確認
 * - パスワードをハッシュ化し、DTOに詰め替えてDB登録
 * - 完了画面へフォワード（氏名・IDのみ表示）
-* * @author 山崎
 */
 @WebServlet("/public/AccountCompleteServlet")
 public class AccountCompleteServlet extends HttpServlet {

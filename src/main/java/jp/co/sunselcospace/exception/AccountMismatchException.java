@@ -1,7 +1,6 @@
 package jp.co.sunselcospace.exception;
 
 /**
- * @author 山下 諒
  */
 public class AccountMismatchException extends Exception {
 	public AccountMismatchException() {

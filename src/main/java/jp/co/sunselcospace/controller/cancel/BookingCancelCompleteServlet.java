@@ -83,7 +83,6 @@ public class BookingCancelCompleteServlet extends CancelAbstract {
 
 	/**
 	 * requestからBookingFormをインスタンス化し返す
-	 * @author 山下諒
 	 * @param request
 	 * @return bookingForm
 	 */

@@ -13,14 +13,13 @@ import jp.co.sunselcospace.entity.BookingEntity;
 import jp.co.sunselcospace.exception.DataAccessException;
 
 /**
- * @author 山下 諒
+ * @author  
  */
 public class BookingService {
 	private final BookingDao bookingDao = new BookingDao();
 
 	/**
 	 * 予約番号をもとに予約テーブルを検索するようDAOのメソッドを呼び出し、BookingEntityを返す。
-	 * @author 山下 諒
 	 *
 	 * @param bookingId 予約ID
 	 * @return BookingEntity
@@ -51,7 +50,6 @@ public class BookingService {
 
 	/**
 	 * 予約番号をもとに予約テーブルでキャンセル処理を行うようDAOのメソッドを呼び出します。
-	 * @author 山下 諒
 	 *
 	 * @param id 予約番号
 	 *
@@ -78,7 +76,6 @@ public class BookingService {
 
 	/**
 	 * アカウントIDをもとにbookingテーブルから予約情報を検索するようDAOのメソッドを呼び出します。
-	 * @author 山下 諒
 	 *
 	 * @param id アカウントID
 	 * @return List<BookingEntity>
@@ -106,7 +103,6 @@ public class BookingService {
 
 	/**
 	 * bookingテーブルから予約対象となった施設IDの予約日取得をDAOに依頼
-	 * @author 稲満
 	 * @param roomid
 	 * @return bookedDateList
 	 * @throws DataAccessException
@@ -133,7 +129,7 @@ public class BookingService {
 
 	/**
 	 * 対象施設の予約日が重複していないか調べる
-	 * @author 稲満
+	 * @author 
 	 * @param roomId
 	 * @param bookingDate
 	 * @return
@@ -164,7 +160,7 @@ public class BookingService {
 
 	/**
 	 * 予約情報（BookingEntity）のDB登録をDAOに依頼
-	 * @author 稲満
+	 * @author 
 	 * @param bookingEntity
 	 * @throws DataAccessException
 	 * @throws NamingException

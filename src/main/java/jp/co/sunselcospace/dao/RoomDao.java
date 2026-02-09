@@ -13,12 +13,10 @@ import jp.co.sunselcospace.data.ConnectionManager;
 import jp.co.sunselcospace.entity.RoomEntity;
 
 /**
- * @author 山下 諒
  */
 public class RoomDao {
 	/**
 	 * 施設管理番号をもとに施設テーブルを検索しRoomEntityを返す
-	 * @author 山下 諒
 	 *
 	 * @param roomId 施設管理番号
 	 * @return RoomEntity
@@ -45,7 +43,6 @@ public class RoomDao {
 
 	/**
 	 *
-	 * @author 山下 諒
 	 *
 	 * @param resultSet
 	 * @return RoomEntity
@@ -80,7 +77,6 @@ public class RoomDao {
 	}
 
 	/*
-	 * @author 北川　優子
 	*RoomDaoがデータベースから施設の情報を取得する
 	*テーブル：施設（room）
 	*条件　　：全件取得

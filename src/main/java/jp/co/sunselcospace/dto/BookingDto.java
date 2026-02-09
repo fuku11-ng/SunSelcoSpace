@@ -7,7 +7,7 @@ import jp.co.sunselcospace.entity.BookingEntity;
 
 /**
  *
- * @author 山下 諒
+ * @author  
  */
 public class BookingDto {
 	//@formatter:off

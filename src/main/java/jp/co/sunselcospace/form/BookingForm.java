@@ -5,7 +5,6 @@ import java.time.LocalDate;
 import jp.co.sunselcospace.util.Convertor;
 
 /**
- * @author 山下 諒
  */
 public class BookingForm {
 	// @formatter:off
@@ -20,7 +19,6 @@ public class BookingForm {
 
 	// @formatter:off
 	/**
-	 * @author 山下 諒
 	 */
 	public BookingForm(Integer id
 								, Integer roomId
@@ -41,7 +39,6 @@ public class BookingForm {
 
 	// @formatter:off
 	/**
-	 * @author 山下 諒
 	 */
 	public BookingForm(String id
 								, String bookingDate
@@ -60,49 +57,42 @@ public class BookingForm {
 	// @formatter:on
 
 	/**
-	 * @author 山下 諒
 	 */
 	public Integer getId() {
 		return id;
 	}
 
 	/**
-	 * @author 山下 諒
 	 */
 	public Integer getRoomId() {
 		return roomId;
 	}
 
 	/**
-	 * @author 山下 諒
 	 */
 	public LocalDate getBookingDate() {
 		return bookingDate;
 	}
 
 	/**
-	 * @author 山下 諒
 	 */
 	public String getPurpose() {
 		return purpose;
 	}
 
 	/**
-	 * @author 山下 諒
 	 */
 	public String getName() {
 		return name;
 	}
 
 	/**
-	 * @author 山下 諒
 	 */
 	public String getLocation() {
 		return location;
 	}
 
 	/**
-	 * @author 山下 諒
 	 */
 	public Integer getFee() {
 		return fee;

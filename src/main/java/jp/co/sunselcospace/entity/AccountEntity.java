@@ -2,7 +2,6 @@ package jp.co.sunselcospace.entity;
 
 /**
  * アカウントテーブル用のEntity
- * @author 山下 諒
  */
 public class AccountEntity {
 	private String id;
@@ -10,7 +9,7 @@ public class AccountEntity {
 	private String name;
 
 	/**
-	 * @author 山下 諒
+	 * @author 
 	 *
 	 * @param id
 	 * @param password
@@ -30,14 +29,12 @@ public class AccountEntity {
 	}
 
 	/**
-	 * @author 山下 諒
 	 */
 	public AccountEntity(String id) {
 		this(id, "no password", "no Name");
 	}
 
 	/**
-	 * @author 山下 諒
 	 */
 	public String getId() {
 		return id;
@@ -48,7 +45,6 @@ public class AccountEntity {
 	}
 
 	/**
-	 * @author 山下 諒
 	 */
 	public String getName() {
 		return name;

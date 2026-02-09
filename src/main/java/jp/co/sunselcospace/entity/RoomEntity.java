@@ -2,7 +2,6 @@ package jp.co.sunselcospace.entity;
 
 /**
  * 施設テーブル用のEntity
- * @author 山下 諒
  */
 public class RoomEntity {
 	private Integer id;
@@ -15,7 +14,6 @@ public class RoomEntity {
 	private String introduction;
 
 	/**
-	 * @author 山下 諒
 	 */
 	public RoomEntity(Integer id, String name, String location, Integer capacity, String overview, Integer fee,
 			String image, String introduction) {
@@ -98,7 +96,6 @@ public class RoomEntity {
 	}
 
 	/**
-	 * @author 山下 諒
 	 */
 	@Override
 	public String toString() {

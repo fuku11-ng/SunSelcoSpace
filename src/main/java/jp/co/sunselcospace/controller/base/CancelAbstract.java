@@ -6,13 +6,11 @@ import jp.co.sunselcospace.entity.AccountEntity;
 import jp.co.sunselcospace.entity.BookingEntity;
 
 /**
- * @author 山下諒
  */
 public abstract class CancelAbstract extends ControllerAbstract {
 
 	/**
 	 * ログイン中のアカウトと予約情報のアカウトが一致しているかをIDで比較。
-	 * @author 山下諒
 	 *
 	 * @param accountEntity
 	 * @param bookingEntity

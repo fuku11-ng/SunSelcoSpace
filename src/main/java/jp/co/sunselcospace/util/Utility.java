@@ -12,12 +12,10 @@ import jp.co.sunselcospace.constant.Constant;
 import jp.co.sunselcospace.entity.AccountEntity;
 
 /**
- * @author 山下諒
  */
 public class Utility {
 	/**
 	 * ログイン中のアカウトのAccountEntityを返します。
-	 * @author 山下諒
 	 *
 	 * @param request
 	 * @return　AccountEntity

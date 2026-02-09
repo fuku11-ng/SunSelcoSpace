@@ -19,12 +19,10 @@ import jp.co.sunselcospace.exception.DataAccessException;
 import jp.co.sunselcospace.util.Convertor;
 
 /**
- * @author 山下 諒
  */
 public class BookingDao {
 	/**
 	 * 予約番号をもとに予約テーブルを検索し、BookingEntityを返す
-	 * @author 山下 諒
 	 *
 	 * @param bookingID
 	 * @return BookingEntity
@@ -52,7 +50,6 @@ public class BookingDao {
 
 	/**
 	 * 予約番号をもとに予約テーブルでキャンセル処理を行う
-	 * @author 山下 諒
 	 *
 	 * @param id
 	 * @return int 更新したレコード数
@@ -78,7 +75,7 @@ public class BookingDao {
 
 	/**
 	 * アカウントIDをもとにbookingテーブルから予約情報を検索し、List<BookingEntity>を返す
-	 * @author 山下 諒
+	 * @author  
 	 *
 	 * @param id アカウントID
 	 * @return List<BookingEntity>
@@ -105,7 +102,6 @@ public class BookingDao {
 
 	/**
 	 * resultSetから1件のBookingEntityをインスタンス化し返す
-	 * @author 山下 諒
 	 *
 	 * @param resultSet
 	 * @return BookingEntity
@@ -149,7 +145,6 @@ public class BookingDao {
 	
 	/**
 	 * BookingDao：対象施設の既に予約されている日をbookingから取得
-	 * @author 稲満
 	 * @param id
 	 * @return List<LocalDate>
 	 * @throws SQLException
@@ -179,7 +174,6 @@ public class BookingDao {
 
 	/**
 	 * 対象の施設に指定した予約日が既に存在しているかbookingから取得
-	 * @author 稲満
 	 * @param roomId
 	 * @param bookingDate
 	 * @return
@@ -209,7 +203,6 @@ public class BookingDao {
 
 	/**
 	 * 予約情報（BookingEntitiy）を元にDBに登録
-	 * @author 稲満
 	 * @param bookingEntity
 	 * @throws SQLException
 	 * @throws NamingException

@@ -20,7 +20,6 @@ import jp.co.sunselcospace.service.RoomService;
 import jp.co.sunselcospace.util.Utility;
 
 /**
- * @author 山下諒
  */
 @WebServlet("/BookingCancelConfirmationServlet")
 public class BookingCancelConfirmationServlet extends CancelAbstract {
@@ -32,7 +31,6 @@ public class BookingCancelConfirmationServlet extends CancelAbstract {
 	/**
 	 *予約情報を取得し、予約キャンセル確認画面に遷移
 	 *予約情報の取得が出来なかった場合、予約一覧のサーブレットに遷移
-	 *@author 山下諒
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {

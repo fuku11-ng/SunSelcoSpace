@@ -25,7 +25,6 @@ import jp.co.sunselcospace.form.AccountForm;
 * - 入力値(name, id, password)を受領しバリデーション
 * - ID重複使用チェック
 * - 問題なければ確認JSPへ、エラー時は入力画面へ戻す
-* * * @author 山崎
 */
 @WebServlet("/public/AccountConfirmationServlet")
 public class AccountConfirmationServlet extends HttpServlet {

@@ -2,19 +2,18 @@ package jp.co.sunselcospace.form;
 
 public class AccountForm {
 	private String name;
-	//山崎追記
+	//追記
 	private String id;
 	private String password;
 	
 	public String getName() {
 		return name;
 		}
-	//山崎追記
+	//追記
 	
 	public void setName(String name) {
 		this.name = name;
 		}
-	//山崎追記
 	
 
 	public String getId() {

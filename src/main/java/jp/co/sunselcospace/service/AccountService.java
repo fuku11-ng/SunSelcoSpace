@@ -10,7 +10,7 @@ import jp.co.sunselcospace.dto.AccountDto;
 import jp.co.sunselcospace.entity.AccountEntity;
 import jp.co.sunselcospace.form.AccountForm;
 import jp.co.sunselcospace.util.Utility;
-//2件　山崎追加
+//2件　追加
 
 public class AccountService {
 	public AccountEntity getAccountByIdPassword(AccountDto accountDto) throws NoSuchAlgorithmException, NamingException, SQLException {
@@ -28,7 +28,6 @@ public class AccountService {
 	}
 	/**
 	* 完了工程向け: ID重複再確認
-	* @山崎追記
 	*/
 	
 	public boolean checkDuplicateId(AccountForm form) throws NamingException, SQLException {
@@ -38,7 +37,6 @@ public class AccountService {
 
 	/**
 	* 完了工程向け: パスワードハッシュ化（MD5）
-	*  @山崎追記
 	*/
 	public String hashPassword(AccountForm form) throws NoSuchAlgorithmException {
 	return Utility.digest(form.getPassword());

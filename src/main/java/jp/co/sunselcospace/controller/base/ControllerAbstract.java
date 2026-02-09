@@ -13,13 +13,11 @@ import jakarta.servlet.http.HttpServletResponse;
 import jp.co.sunselcospace.constant.Constant;
 
 /**
- * @author 山下諒
  */
 public abstract class ControllerAbstract extends HttpServlet {
 
 	/**
 	 * エラーメッセージ（List<String>）をrequestにセットし、フォワードする。
-	 * @author 山下諒
 	 *
 	 * @param errorMessageList エラーメッセージ
 	 * @param forwardPath フォワード先
@@ -38,7 +36,6 @@ public abstract class ControllerAbstract extends HttpServlet {
 
 	/**
 	 * エラーメッセージ（String）をrequestにセットし、フォワードする。
-	 * @author 山下諒
 	 *
 	 * @param errorMessage エラーメッセージ
 	 * @param forwardPath フォワード先
@@ -60,7 +57,6 @@ public abstract class ControllerAbstract extends HttpServlet {
 
 	/**
 	 * フォワードします
-	 * @author 山下諒
 	 *
 	 * @param forwardPath フォワード先
 	 * @param request
